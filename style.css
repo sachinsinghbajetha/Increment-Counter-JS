@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+}
+.counter {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+i {
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    transition: transform 1s;
+}
+.sub {
+    margin-top: 3rem;
+    margin-left: 0.5rem;
+}
+.title {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.counter,
+.title,
+i {
+    color: white;
+}
